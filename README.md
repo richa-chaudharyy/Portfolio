@@ -1,5 +1,17 @@
 # Portfolio
 
-🖼️ I built my portfolio website using HTML and CSS to represent not just my technical journey but my creative personality. It’s a comprehensive reflection of everything I love: frontend development, artistic styling, and meaningful user experiences. As someone deeply curious about modern web design, I crafted sections that showcase my proficiency in the MERN stack, Django with Jinja templating, and elegant HTML/CSS clones of real-world platforms like Spotify, YouTube, Amazon, and a cozy café project called The Hunger’s Door. My site features interactive elements, dynamic layouts, and cinematic animations—because I believe design should be both functional and emotionally engaging.
+Personal portfolio website for Richa Chaudhary.
 
-Beyond the code, my portfolio reveals my passion for data-driven design and machine learning. I’m currently studying full-stack web development while exploring creative ways to blend data science with visual storytelling. Each part of my site—from validation logic to hover effects—is built with intention and precision, reflecting my methodical mindset and attention to detail. Whether it’s showcasing tweet functionality or a stylish product grid, the goal is always the same: clarity, creativity, and impact. This portfolio is more than a display—it’s my narrative as a builder, dreamer, and designer coming to life, pixel by pixel.
+## Sections
+
+- About
+- Resume
+- Projects
+- Contact
+
+## Built With
+
+- HTML
+- CSS
+- Font Awesome icons
+- Formspree for the contact form

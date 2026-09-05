@@ -3,138 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Richa</title>
-    <link rel="icon" href="images/icon.png" />
+    <meta name="description" content="Contact Richa Chaudhary." />
+    <title>Richa Chaudhary | Contact</title>
+    <link rel="icon" href="images/icon2.png" />
     <link rel="stylesheet" href="index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body>
-    <div class="sticky">
-      <div class="imgbox">
-        <img class="my-img" src="images/img.png" alt="Richa Chaudhary" />
-      </div>
-
-      <h2 class="name">Richa Chaudhary</h2>
-      <p class="idea">Transforming ideas into impact through code, data and design</p>
-      <div class="data"><a href="index.html">Data Scientist</a></div>
+  <body class="contact-page">
+    <aside class="sticky">
+      <div class="imgbox"><img class="my-img" src="images/img.png" alt="Richa Chaudhary" /></div>
+      <h1 class="name">Richa Chaudhary</h1>
+      <p class="idea">BS Data Science &amp; Applications student at IIT Madras</p>
+      <div class="data">Software · Data · Analytics</div>
       <div class="line"></div>
+      <div class="social"><div class="icon"><i class="fa-regular fa-envelope"></i></div><div class="main"><p class="mail">Email</p><a class="detail" href="mailto:richachaudharyan@gmail.com">richachaudharyan@gmail.com</a></div></div>
+      <div class="social"><div class="icon"><i class="fa-brands fa-github"></i></div><div class="main"><p class="mail">GitHub</p><a class="detail" href="https://github.com/richa-chaudharyy" target="_blank" rel="noopener noreferrer">richa-chaudharyy</a></div></div>
+      <div class="social"><div class="icon"><i class="fa-brands fa-linkedin-in"></i></div><div class="main"><p class="mail">LinkedIn</p><a class="detail" href="https://www.linkedin.com/in/richa-chaudharyy-/" target="_blank" rel="noopener noreferrer">Richa Chaudhary</a></div></div>
 
-      <div class="social">
-        <div class="icon">
-          <i class="fa-regular fa-envelope" style="color: #ffd43b">
-
-          </i></div>
+      <div class="social location-row">
+        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
         <div class="main">
-          <p class="mail">Email</p>
-          <p class="detail">richachaudharyan@gmail.com</p>
+          <p class="mail">Location</p>
+          <p class="detail">India</p>
         </div>
       </div>
+    </aside>
 
-      <div class="social">
-        <div class="icon">
-          <i class="fa-brands fa-github" style="color: #ffd43b"></i>
-        </div>
-        <div class="main">
-          <p class="mail">GitHub</p>
-          <a class="detail" href="https://github.com/richa-chaudharyy"
-            >richa-chaudharyy</a
-          >
-        </div>
-      </div>
-
-      <div class="social">
-        <div class="icon">
-          <i class="fa-brands fa-linkedin-in" style="color: #FFD43B;"></i>
-        </div>
-        <div class="main">
-          <p class="mail">LinkedIn</p>
-          <a
-            class="detail"
-            href="https://www.linkedin.com/in/richa-chaudharyy-/"
-            >Richa Chaudhary</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div class="dynamic">
-      <div class="navbar">
+    <main class="dynamic">
+      <header class="navbar">
         <h2 class="about">Contact Me</h2>
-        <div class="nav">
-          <div class="nav-item">
-            <a href="index.html">About</a>
-          </div>
-          <div class="nav-item">
-            <a href="resume.html">Resume</a>
-          </div>
-          <div class="nav-item">
-            <a href="projects.html">Projects</a>
-          </div>
-          <div class="nav-item">
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
-      </div>
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="nav-item" href="index.html">About</a>
+          <a class="nav-item" href="resume.html">Resume</a>
+          <a class="nav-item" href="projects.html">Projects</a>
+          <a class="nav-item active" href="contact.html">Contact</a>
+        </nav>
+      </header>
 
-      <div class="line2"></div>
-
-      <div class="contact">
-        <h3 class="feel">Feel Free to reach out.</h3>
-
-        <div class="all-section">
-          <form action="https://formspree.io/f/xvgrnrqv" method="POST">
+      <div class="downpart">
+        <section class="contact">
+          <h3 class="feel">Feel free to reach out.</h3>
+          <form class="contact-form" action="https://formspree.io/f/xvgrnrqv" method="POST">
             <div class="name-section">
               <label class="your" for="your-name">Your Name</label>
-              <input
-                id="your-name"
-                name="name"
-                type="text"
-                placeholder="Arush Chaudhary"
-                required
-              />
+              <input id="your-name" name="name" type="text" placeholder="Your name" required />
             </div>
-
             <div class="name-section">
               <label class="your" for="your-email">Your Email</label>
-              <input
-                id="your-email"
-                name="email"
-                type="email"
-                placeholder="abc@gmail.com"
-                required
-              />
+              <input id="your-email" name="email" type="email" placeholder="you@example.com" required />
             </div>
-
             <div class="name-section">
               <label class="your" for="your-sub">Subject</label>
-              <input id="your-sub" name="subject" placeholder="Work" required />
+              <input id="your-sub" name="subject" type="text" placeholder="Subject" required />
             </div>
-
             <div class="name-section">
               <label class="your" for="your-message">Your Message</label>
-              <textarea
-                id="your-message"
-                name="message"
-                placeholder="Hello, myself Arush ...."
-                required
-              ></textarea>
+              <textarea id="your-message" name="message" placeholder="Write your message here..." required></textarea>
             </div>
-
-            <button class="send" type="submit">
-              <i class="fa-solid fa-paper-plane" style="color: #000000"></i>Send
-              Message
-            </button>
+            <button class="send" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
           </form>
-        </div>
-
-        <div class="foot"></div>
+        </section>
       </div>
-    </div>
+    </main>
   </body>
 </html>
